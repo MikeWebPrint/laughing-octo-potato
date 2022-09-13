@@ -1,0 +1,43 @@
+html {
+padding: 0;
+margin: 0;
+}
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    color: darkmagenta;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(12, 70, 30);
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    padding: 15px;
+    z-index: 2;
+}
+main, footer {
+    position: relative;
+    top: 125px;
+    padding: 15px;
+}
+ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.form {
+    background-color: lightgray;
+    padding: 15px;
+}
+h1, nav, a {
+    display: inline-block;
+    color: rgb(255, 255, 186);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
