@@ -8,24 +8,26 @@
 </head>
 <body>
     <header>
-        <h1>Ducks</h1>
         <nav>
             <ul>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="duck">About Ducks</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#aboutus">About Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <img id="duck" src="./assets/duck.jpg" alt="duck">
-        <p>This is a duck.</p>
-
+        
+        <h1>Ducks</h1>
         <section>
-
+            <h2>Welcome to the ducks page</h2>
         </section>
         <section>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam obcaecati suscipit, sit a, quo debitis maiores perspiciatis neque quam quia eius omnis est, sapiente facere harum laudantium architecto ullam earum corporis ea repellendus. Deleniti corrupti consequuntur dicta molestiae deserunt aliquid eius veniam. Magnam doloribus id ipsa sequi sit ducimus pariatur quae quod corrupti voluptatibus dicta, amet aliquam obcaecati consequuntur ex neque laborum ab, veniam impedit reiciendis omnis placeat perspiciatis eligendi eius! Labore beatae quasi, optio consequatur excepturi dignissimos placeat quibusdam vel obcaecati impedit facere veritatis ducimus at perferendis dolorum nihil ut temporibus! Nam ullam corporis nostrum quia, eligendi ex perferendis.</p>
+            <figure class="float-left">
+                <img id="duck" src="./assets/duck.jpg" alt="duck">
+                <figcaption>This is a duck.</figcaption>
+            </figure>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laudantium enim est fuga corrupti saepe incidunt eos consequuntur voluptate soluta repudiandae, consectetur possimus laboriosam, in distinctio hic fugit quam perferendis explicabo ullam culpa minima dolorem perspiciatis. Illum ea similique, amet accusantium reiciendis veritatis nam at inventore consequuntur quia numquam.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quia cum officia assumenda id at delectus enim nostrum vel. Repellendus asperiores laborum molestias blanditiis explicabo quo id sit? Eaque nulla libero odit earum totam consequuntur, quidem quia ipsum quibusdam illum neque voluptate voluptatum inventore? Nemo voluptas quam quod autem accusamus!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium labore architecto debitis reprehenderit provident nemo, totam culpa consequatur. Temporibus quaerat sint dignissimos? Saepe, provident.</p>
@@ -34,17 +36,19 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium labore architecto debitis reprehenderit provident nemo, totam culpa consequatur. Temporibus quaerat sint dignissimos? Saepe, provident.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur vitae ratione incidunt perferendis nemo. Natus consequuntur placeat maxime aperiam assumenda eligendi, laudantium blanditiis labore ex!</p>
         </section>
+        <h2 id="contact">Contact Us</h2>
+        <p>Sign up for our newsletter</p>
+        <form action="post">
+            <label for="name">first name</label>
+            <input type="text" name="name">
+            <label for="email">email</label>
+            <input type="email" name="email">
+            <button type="submit" name="Send" id="send-button">Send</button>
+        </form>
     </main>
-    <h3 id="contact">Contact Us</h3>
-    <form action="post" class="form">
-        <label for="name">first name</label>
-        <input type="text" name="name">
-        <label for="email">email</label>
-        <input type="email" name="email">
-        <input type="submit" name="Send" id="send-button">
-    </form>
-    <footer>
-        <h2>Thank you for visiting!</h2>
+    <footer id="aboutus">
+        <h3>Thank you for visiting!</h3>
+        <p>We are an organization that likes ducks.</p>
     </footer>
 </body>
 </html>
